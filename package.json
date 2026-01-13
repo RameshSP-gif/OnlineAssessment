@@ -1,0 +1,23 @@
+{
+  "name": "online-exam-app",
+  "version": "0.1.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "serverless-http": "^3.0.0",
+    "dotenv": "^16.1.4",
+    "@aws-sdk/client-s3": "^3.365.0"
+  }
+}
